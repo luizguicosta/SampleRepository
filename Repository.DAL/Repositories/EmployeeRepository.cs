@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.DAL.Repositories
 {
-    class EmployeeRepository : Repository<Employee>
+    public class EmployeeRepository : Repository<Employee>
     {
     }
 }

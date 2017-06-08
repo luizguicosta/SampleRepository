@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.DAL.Context
 {
-    class DBContext : DbContext
+    public class DBContext : DbContext
     {
         public DBContext() : base("ConnectionString") { }
 
